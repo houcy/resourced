@@ -25,6 +25,9 @@ func NewGoStruct(name string) (IWriter, error) {
 	if name == "NewrelicInsights" {
 		structInstance = NewNewrelicInsights()
 	}
+	if name == "StatsdAbsolute" {
+		structInstance = NewStatsdAbsolute()
+	}
 
 	if structInstance == nil {
 		return nil, errors.New("GoStruct is undefined.")

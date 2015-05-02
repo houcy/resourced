@@ -102,6 +102,10 @@
 			"Rev": "8b76b95ceb6cb96cd4797a42a0201dbd618de9c2"
 		},
 		{
+			"ImportPath": "github.com/quipo/statsd",
+			"Rev": "b16c3be8a03e3c39a2d9c669b8f13f8876de61cd"
+		},
+		{
 			"ImportPath": "github.com/shirou/gopsutil/common",
 			"Comment": "1.0.0-64-g64357f0",
 			"Rev": "64357f04e785f61a86d993e486b0f9be54d44cb7"
